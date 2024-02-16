@@ -17,6 +17,8 @@ const ProfilePage = () => {
     await loadFull(main);
   };
 
+  const renderParticlesJsInHomePage = true;
+
   const size = "2.25rem"
 
   const dwitiEmail = "dwitishvanaparthi17@gmail.com";
@@ -32,7 +34,7 @@ const ProfilePage = () => {
 
   return (
     <section className='main'>
-      {/* <Particles id="particles" options={particles} init={particlesInit} /> */}
+      {/* {renderParticlesJsInHomePage && <Particles id="particles" options={particles} init={particlesInit} />} */}
       <div className='row1'>
         <div className='pic_links'>
           <img src={dwiti} alt="Passport Photo 1" className="passport-photo" />
