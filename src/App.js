@@ -53,7 +53,7 @@ const ProfilePage = () => {
           <h3 className='college'>Post graduate, Chemical Engineering, Indian Institute of Technology (ISM) DHANBAD</h3>
         </div>
       </div>
-      {/*<div className='row1'>
+      <div className='row1'>
         <div className='pic_links'>
           <img src={sir} alt="Passport Photo 1" className="passport-photo" />
           <div className='links'>
@@ -70,7 +70,7 @@ const ProfilePage = () => {
           <h1 className='name'>Prof Siddhartha Sengupta</h1>
           <h3 className='college'>Associate Professor, Indian Institute of Technology (ISM) Dhanbad</h3>
         </div>
-  </div>*/}
+  </div>
     </section>
   );
 };
